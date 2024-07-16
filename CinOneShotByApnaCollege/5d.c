@@ -15,4 +15,5 @@ int power(int x, int y){
     int result;
     result = x*power(0, y-1);
     return result;
-}
+} 
+// still solving
