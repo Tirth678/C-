@@ -1,12 +1,12 @@
 #include<stdio.h>
+#include<string.h>
 int main(){
-    int a,b,c;
-    float percentage;
-    printf("enter frist threee values\n");
-    scanf("%d %d %d", &a, &b, &c);
-    percentage = (a+b+c)/3;
-    printf("%f\n", percentage);
+    char a[] = "Mia khalifa";
+    // printf("%d\n", a); 
+    // printf("%c\n", a);
+    printf("%s\n", a);
 
+    
 
     return 0;
 }
