@@ -41,3 +41,14 @@ nav a:hover span{
     transform: scale(1) translateY(0);
     opacity: 1;
 }
+nav ul li a .underline {
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: #ff4500; /* Initial color */
+    bottom: -5px;
+    left: 0;
+    transform: scaleX(0); /* Start with no width */
+    transform-origin: bottom right;
+    transition: transform 0.3s ease;
+  }
